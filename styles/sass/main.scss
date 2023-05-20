@@ -4,11 +4,6 @@
   display: grid;
   grid-template-columns: 50% 50%;
   height: 100vh;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.6)
-  );
 }
 
 header {
@@ -24,7 +19,7 @@ header {
     outline: none;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 16px 0px 16px 0px;
-    border-bottom: 3px solid #df8e00;
+    border-bottom: 3px solid dodgerblue;
     color: #333;
     font-size: 20px;
     font-weight: 400;
@@ -87,11 +82,10 @@ main {
     grid-template-columns: 100%;
   }
   main {
-    margin-top: 50px;
+    margin-top: 0px;
   }
-}
-
-.icon {
-  color: white;
-  font-size: 1rem;
+  header {
+    padding: 0;
+    align-items: start;
+  }
 }
